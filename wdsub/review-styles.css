@@ -1,0 +1,84 @@
+body {
+  margin: 0px;
+  font-family: 'syne mono', sans-serif;
+  font-size: 20px;
+  color: #000;
+  background-color: #A38864;
+  
+}
+
+h1 {
+  color: #2E4E6B;
+  text-align: center;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  text-shadow: 2px 2px #F2E1EE; 
+}
+
+h3, h2, p, a {
+  color: #000;
+  font-family: 'indie flower',sans-serif;
+  text-align: center;
+}
+
+#tble-cnts {
+  background-color: #F2E1EE;
+  border: solid 4px #2E4E6B;
+  border-radius: 20px;
+  margin-left:120px;
+  margin-right:120px;
+  padding: 0.1rem;
+  text-align: center;
+}
+
+#tble-cnts ol {
+  max-width: 80px;
+  margin: 0px auto;
+}
+
+#tc-hr {
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+div.review-div {
+  background-color: #F2E1EE;
+  margin-left: 80px;
+  margin-right:80px;
+  border: solid #2E4E6B 4px;
+  border-radius: 20px;
+  padding: 1rem;
+}
+hr {
+  border-color:#2E4E6B;
+    margin-left:90px;
+    margin-right:90px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#hr-rate {
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+div.rate-list {
+  border: solid 4px #2E4E6B;
+  background-color: #F2E1EE;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 20px;
+  padding: 0.1rem;
+}
+
+a:hover {
+  color: #2E4E6B;
+}
+
+a: visited {
+  color: #2E4E6B;
+}
+
