@@ -2,8 +2,11 @@ p, li {font-family: monospace}
 
 p, li {color: brown;}
       
-a:hover {color: red;} 
-a {font-style: italic;}
+a:hover {color: purple;} 
+a {
+      font-style: italic;
+      color: darkgreen;
+}
      
      
 /*Below (the int-link) is the proper format for css. This is also what a comment looks like in a css.*/
