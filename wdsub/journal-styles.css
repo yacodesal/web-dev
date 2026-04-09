@@ -149,3 +149,8 @@ ul.nav-list {
 hr {
   color: #7D0C0A;
 }
+
+#home {
+  font-color: #7D0C0A;
+  text-align: center;
+}
