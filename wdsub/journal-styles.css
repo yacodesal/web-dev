@@ -1,1 +1,151 @@
+body {
+  margin: 0px;
+}
 
+a { 
+color: #7D0C0A;
+text-decoration: none;
+font-family: 'indie flower', sans-serif;
+
+}
+
+h1 {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'coiny', sans-serif;
+  
+}
+#nav-menu {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.7);
+  
+}
+
+div.nav-div {
+  text-align: center;
+  flex-grow: 1;
+  position: relative;
+  top: 0px;
+  border-right: solid 1px black;
+}
+
+div.nav-div a{
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0px 15px;
+}
+
+ul.nav-list {
+  display: none;
+  list-style-type: none;
+  padding-left: 0px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  margin: 0px;
+  max-height: 100px;
+  overflow: auto;
+}
+
+.nav-div:hover {
+  background-color: rgba(179, 171, 170, 0.4);
+  padding-color: lightgrey;
+  font-weight: bolder;
+}
+
+.nav-div:hover .nav-list {
+  display: block;
+  
+}
+
+#nav-songs {
+  border-right: none;
+  
+}
+
+.nav-div .nav-list a:hover {
+  background-color: rgba(179, 171, 170, 0.4);
+  
+}
+
+#main-context {
+  margin: 0px 15%;
+  padding: 10px;
+  background-color: rgba(255,255,255, 0.4);
+  font-family: 'indie flower', sans-serif;
+}
+
+#bg-img {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height:100vh;
+  z-index: -99999;
+  opacity: 0.9;
+}
+
+#footer {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  background-color: rgba(179, 171, 170, 0.8);
+  padding: 20px 10px 10px;
+}
+
+#publish-info p {
+  margin-top: 0px; 
+}
+
+#barcelona {
+  float: left;
+  padding: 15px; 
+}
+
+#barcelona p {
+  text-align: center;
+}
+
+#Messina {
+  float: right;
+  padding: 15px;
+}
+
+#Messina p {
+  text-align: center;
+}
+
+#Ontario {
+  float: left;
+  width: 40%;
+  padding:15px;
+}
+#bstreet img {
+  width:90%;
+  padding:15px;
+}
+#Ontario p{
+  text-align: center;
+}
+
+.img {
+  margin: 10px;
+  border: solid 2px ; 
+}
+
+.places {
+  text-align: center;
+  font-family: 'coiny', sans-serif;
+  
+}
+
+hr {
+  color: #7D0C0A;
+}
