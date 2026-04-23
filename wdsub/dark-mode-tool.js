@@ -12,7 +12,7 @@ function darkOnOff(event) {
   
   //change text color
   if (isDark) document.body.style.color = "black";
-  else (isDark) document.body.style.color = "white";
+  else document.body.style.color = "white";
   
   //change mode text
   if (isDark) mode.innerHTML = "<p>Dark mode off</p>";
