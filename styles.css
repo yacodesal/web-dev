@@ -1,11 +1,11 @@
 p, li {font-family: monospace}
 
-p, li {color: brown;}
+p, li {color: #013E7D;}
       
 a:hover {color: purple;} 
 a {
       font-style: italic;
-      color: darkgreen;
+      color: #323232;
 }
      
      
