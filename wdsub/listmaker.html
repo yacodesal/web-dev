@@ -1,13 +1,40 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
+
+<html>
   <head>
     <title>List Maker</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="listmaker.css">
   </head>
-<body>
+  
+  <!--Header-->
+  <body>
+    <div id="header">
+      <h1>List Maker</h1>
+    </div>
+    
+    <!--Buttons-->
+    <div id="buttons">
+      <label for="item-input">New Item:</label>
+      <input id="item-input" type="text">
+      <button type="text" onclick="addItem(event)"> Add Item</button>
+      <button onclick="clearList(event)">Clear List</button>
+    </div>
+    
+    <!--List Div-->
+    <div id="list-div">
+      <ul id="list-items">
+        
+      </ul>
+    </div>
 
 
-  <script src="listmaker.js"></script>
-</body>
-
-
-
+    <script src="listmaker.js"></script>
+  </body>
+</html>
+ 
+  
