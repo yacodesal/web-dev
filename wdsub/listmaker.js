@@ -8,10 +8,15 @@ const UNCHECK_BOX = "<button onclick='checkItem(this)'><svg viewBox='0 0 448 512
 let itemInput = document.getElementById("item-input");
 let listItems = document.getElementById("list-items");
 
+loadList();
+document.addEventListener("beforeunload", () => saveList());
+
 //This allows the enter key too add items to the list.
 document.addEventListener("keydown",(key) => {
   if (key.code == "Enter") addItem(key);
 });
+
+//FUNCTION DEFINITIONS
 
 // the _ means it's scoped. This variable only exists here.
 function addItem(event) {
@@ -66,3 +71,14 @@ function uncheckItem(elem) {
   parentLI.style.color = "inherit";
   parentLI.innerHTML = UNCHECK_BOX + parentLI.innerText + TRASH_BUTTON;
 }
+
+function saveList() {
+  document.cookie = "list=" + listItems.innerHTML;
+}
+
+//oldList is what was saved into the cookie.
+function loadList() {
+  let oldList = document.cookie.substring(5);
+  if (oldList != "") listItems.innerHTML = oldList; 
+}
+
