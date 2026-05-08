@@ -1,12 +1,12 @@
-#bg-img {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100vw;
-  height:100vh;
-  z-index: -99999;
-  opacity: 0.9;
-}
+  #bg-img {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: -89999;
+    opacity: 0.5;
+      }
 
 body {
   margin:0px;
@@ -30,6 +30,11 @@ li button {
 
 li{
   list-style-type: none;
+}
+
+#list-div {
+  border: solid 4px purple;
+  radius: 5px;
 }
 
 .trash-btn {
