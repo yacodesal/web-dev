@@ -1,5 +1,5 @@
   #bg-img {
-    position: fixed;
+  position: fixed;
   top: 0px;
   left: 0px;
   width: 100vw;
@@ -36,6 +36,9 @@ li{
   border: solid 4px purple;
   radius: 5px;
   position: fixed;
+  padding:10px;
+  margin: 5px
+  
 }
 
 .trash-btn {
