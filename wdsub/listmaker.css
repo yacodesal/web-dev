@@ -35,6 +35,7 @@ li{
 #list-div {
   border: solid 4px purple;
   radius: 5px;
+  position: fixed;
 }
 
 .trash-btn {
