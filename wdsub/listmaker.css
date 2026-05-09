@@ -33,11 +33,13 @@ li{
 }
 
 #list-div {
-  border: solid 4px purple;
+  border: solid 5px purple;
   radius: 5px;
   position: fixed;
   padding: 10px;
-  margin: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
   
 }
 
