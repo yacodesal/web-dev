@@ -6,7 +6,8 @@
   height:100vh;
   z-index: -99999;
   opacity: 0.9;
-      }
+  overflow: clip;
+}
 
 body {
   margin:0px;
@@ -36,8 +37,8 @@ li{
   border: solid 3px purple;
   border-radius: 5px;
   padding: 0.1rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 40px;
+  margin-right: 40px;
   margin-top: 30px;
 }
 
