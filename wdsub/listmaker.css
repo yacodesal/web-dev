@@ -33,10 +33,9 @@ li{
 }
 
 #list-div {
-  border: solid 5px purple;
-  radius: 5px;
-  position: fixed;
-  padding: 10px;
+  border: solid 3px purple;
+  border-radius: 5px;
+  padding: 0.1rem;
   margin-left: 100px;
   margin-right: 100px;
   text-align: center;
