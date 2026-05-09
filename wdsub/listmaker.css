@@ -36,11 +36,9 @@ li{
   border: solid 3px purple;
   border-radius: 5px;
   padding: 0.1rem;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 30px;
-  text-align: center;
-  
 }
 
 .trash-btn {
