@@ -1,12 +1,10 @@
   #bg-img {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100vw;
-  height:100vh;
-  z-index: -99999;
-  opacity: 0.9;
-  overflow: clip;
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  z-index:-99;
+  opacity:0.7;
 }
 
 body {
