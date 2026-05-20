@@ -1,0 +1,60 @@
+body {
+  margin: 0px;
+}
+
+div h1 {
+  text-align: center;
+  font-family: 'diplomata', sans-serif;
+  color: rgb(255, 0, 0);
+}
+
+div h3 {
+  text-align: center;
+  font-family: 'Love Ya Like A Sister', sans-serif;
+  color: rgb(5, 166, 31);
+}
+
+div.ttt-row {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+  width: 75%;
+  margin: auto;
+  max-widthL 600px;
+  
+}
+
+div.ttt-square {
+  flex-grow: 1;
+  border: 3px solid black;
+  border-bottom: 0px;
+  min-height: 100px;
+  width: 30%;
+  float: left;
+}
+div.ttt-bottom {
+  border-bottom: 3px solid black;
+}
+
+#end-of-game {
+  background-color: rgba(0,0, 0, 0.5);
+  position: fixed;
+  top 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 99999;
+  display: none;
+}
+
+#end-of-game div {
+  background-color: white;
+  width: 50%;
+  max-width: 400px;
+  margin: 200px auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 10px;
+ 
+}
